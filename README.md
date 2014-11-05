@@ -1,4 +1,4 @@
 WebLearn
 ========
 
-the repository for saving my web learn process
+the repository for saving my web development learn process
