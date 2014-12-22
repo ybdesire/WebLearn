@@ -1,0 +1,30 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
+	<script src="javascript/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="javascript/i18next-1.7.4.js" type="text/javascript"></script>
+	
+	<title>i18next test</title>
+</head>
+
+<body>
+	<p id="id001" data-i18n="first_data">-html2-first</p>
+</body>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  language_complete = navigator.language.split("-");
+  language = (language_complete[0]);
+
+  i18n.init({
+  lng: language, 
+  resGetPath: 'locales/__lng__.json',
+  fallbackLng: "en"
+  }, function(){
+	$("#id001").i18n();
+  });
+});
+</script>
+
+</html>

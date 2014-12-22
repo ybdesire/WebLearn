@@ -18,3 +18,11 @@ the repository for saving my web development learn process & examples
 
 2_JS/HTMLBtn
 ->  Click a button at HTML and process the click event at js.
+
+
+3_i18next/HTML L10n
+->	i18next.js learning: Wrote a HTML l10n demo.
+
+
+
+
