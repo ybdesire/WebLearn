@@ -1,0 +1,54 @@
+<!--
+This is a jQuery basics learning demo.
+Including jQuery selector/event.
+	*select by element/id
+	*event: click(), hide(), fadeIn(), html()
+-->
+
+<html>
+
+<head>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+	<title>jQuery Basics</title>
+</head>
+
+<body>
+	<p> first p element </p>
+	<li id="li001"> first li element</li>
+	<li id="li002"> second li element</li>
+	<p> second p element </p>
+	<p>click the text box to hide</p><input id="txt001" type="text"></input>
+	<p>click the button to fadeIn</p><input id="btn001" type="button" value="click"></input>
+	<li id="li003" style="display:none"> third li element</li>
+	<p>click the button to display the selected text</p><input id="btn002" type="button" value="click"></input>
+	<p id="btnFortxt">lalala</p>
+</body>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("p").click(function(){				//select element by name & click() event
+		alert("select all p elements by name");
+	});
+	
+	$("#li001").click(function(){			//select element by id & click() event
+		alert("select li element by id");
+	});
+	
+	$("#txt001").click(function(){
+		$("#txt001").hide("slow");			//hide() event
+	});
+	
+	$("#btn001").click(function(){
+		$("#li003").fadeIn();				//fadeIn() event
+	});
+	
+	$("#btn002").click(function(){
+		alert($("#li001").html());			//html() event, get text
+		$("#btnFortxt").html("chage");		//html() event, set text
+	});
+
+});
+</script>
+
+
+</html>
