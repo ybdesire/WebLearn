@@ -1,0 +1,12 @@
+﻿{
+	"first_data": "-de-first data-de-",
+	
+	"htmlStr": {
+		"second_data": "-de-second data-de-",
+		"third_data": "-de-third data-de-"
+	},
+	
+	"js" : {
+		"hello_msg": "-de-hello-de-"
+	}
+}

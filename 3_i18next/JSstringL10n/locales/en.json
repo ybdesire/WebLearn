@@ -1,0 +1,12 @@
+﻿{
+	"first_data": "-en-first data-en-",
+	
+	"htmlStr": {
+		"second_data": "-en-second data-en-",
+		"third_data": "-en-third data-en-"
+	},
+	
+	"js" : {
+		"hello_msg": "-en-hello-en-"
+	}
+}

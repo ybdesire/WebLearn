@@ -1,0 +1,12 @@
+﻿{
+	"first_data": "-sc-first data-sc-",
+	
+	"htmlStr": {
+		"second_data": "-sc-second data-sc-",
+		"third_data": "-sc-third data-sc-"
+	},
+	
+	"js" : {
+		"hello_msg": "-sc-hello-sc-"
+	}
+}
