@@ -24,5 +24,7 @@ the repository for saving my web development learn process & examples
 ->	i18next.js learning: Wrote a HTML l10n demo.
 
 
+3_i18next/JSstringL10n
+->	i18next.js learning: I18n the strings at js file.
 
 
