@@ -44,3 +44,10 @@ the repository for saving my web development learn process & codes
 4_jquery\Basics\SelectorEvents.html
 ->	jQuery basic selector(by element & by id) and basic events(raedy(), click(), hide(), fadeIn(), html()).
 
+
+5 RequireJS learning
+--------------------
+5_requirejs\basics
+-> Require asynchronously load external js file.
+
+
