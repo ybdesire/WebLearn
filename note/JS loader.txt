@@ -1,0 +1,26 @@
+1. What is JS loader?
+---------------------
+(1) common way of loading js by <script> tag blocks web site loading.
+(2) script loader loading js asynchronously and in parallel.
+(3) script loader makes it possible to use the function like "include" for c.
+
+2. The difference of CommonJS, AMD, and RequireJS.
+--------------------------------------------------
+CommonJS and AMD are specifications (or formats) on how modules and their dependencies should be declared in javascript applications.
+RequireJS is a script loader library that is AMD compliant
+
+(1)	AMD is Asynchronous Module Definition (AMD) API.
+	RequireJS implements the AMD API.  ---> client side.
+	
+(2) CommonJS is a project to define a common API and ecosystem for JavaScript. One part of CommonJS is the Module specification.
+	Node.js implements the CommonJS module spec.   ---> server side.
+	
+3. The important concepts about JS loader.
+------------------------------------------
+require:	require -function to fetch dependencies.
+exports:	exports variable to export module contents and some module identifier.
+define:		allows the module to declare its dependencies before to being loaded
+
+
+
+
