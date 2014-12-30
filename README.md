@@ -28,6 +28,8 @@ the repository for saving my web development learn process & codes
 2_JS/immediatFunction.html
 -> Immediately-Invoked Function Expressions example.
 
+2_JS/module/
+-> JS module usage.
 
 3 lib i18next learning
 ----------------------
