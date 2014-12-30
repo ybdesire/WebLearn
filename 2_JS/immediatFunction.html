@@ -1,0 +1,31 @@
+<html>
+
+<head>
+	<title>Immediately-Invoked Function Expressions</title>
+</head>
+
+<body>
+	<p >Immediately-Invoked Function Expressions example</p>
+	<p id="p01">la la la</p>
+	<p id="p02">la la la</p>
+	<p id="p03">la la la</p>
+
+</body>
+
+<script type="text/javascript">
+	// pay attention to the () for 2 modes:
+
+	(function(){
+		document.getElementById("p01").innerHTML = "anonymous function without function name";
+	})();
+	
+	(function msg()	{
+		document.getElementById("p02").innerHTML = "anonymous function with function name";
+	})();
+	
+	var func = function(){
+		document.getElementById("p03").innerHTML = "function";
+	}();
+</script>
+
+</html>

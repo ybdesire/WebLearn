@@ -1,7 +1,7 @@
 WebLearn
 ========
 
-the repository for saving my web development learn process & examples
+the repository for saving my web development learn process & codes
 
 1 HTML learning
 ---------------
@@ -24,6 +24,9 @@ the repository for saving my web development learn process & examples
 
 2_JS/HTMLBtn
 ->  Click a button at HTML and process the click event at js.
+
+2_JS/immediatFunction.html
+-> Immediately-Invoked Function Expressions example.
 
 
 3 lib i18next learning
