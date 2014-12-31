@@ -1,0 +1,28 @@
+<html>
+
+<head>
+	<title>JS require module example</title>
+	<script type="text/javascript" src="javascript/require.js"></script>
+</head>
+
+<body>
+	<p>2 import function: require(), define()</p>
+	<p>2 steps to use RequireJS</p>
+	<li>(1)define a module, such as mymodule.js</li>
+	<li>(2)require to load the module</li>
+	
+</body>
+	<script type="text/javascript">
+	    require.config({
+			baseUrl: "javascript"
+		});
+		
+		require(["mymodule"], function(md){
+			var md2 = require("mymodule")
+			md2.setName("hello requirejs");	//module public function
+			alert(md2.getName());		//module public data
+		})
+		
+
+	</script>
+</html>

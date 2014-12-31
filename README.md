@@ -52,4 +52,5 @@ the repository for saving my web development learn process & codes
 5_requirejs\basics
 -> Require asynchronously load external js file.
 
-
+5_requirejs\module
+-> require(), define(), require.config(), module usage. without data-min.
