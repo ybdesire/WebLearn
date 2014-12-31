@@ -54,3 +54,6 @@ the repository for saving my web development learn process & codes
 
 5_requirejs\module
 -> require(), define(), require.config(), module usage. without data-min.
+
+5_requirejs\modules
+-> RequireJS standard usage: data-min + config + define + require
