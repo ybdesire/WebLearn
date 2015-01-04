@@ -57,3 +57,9 @@ the repository for saving my web development learn process & codes
 
 5_requirejs\modules
 -> RequireJS standard usage: data-min + config + define + require
+
+
+6 CSS learning
+--------------
+6_CSS\basic
+-> CSS basics(property: value;), selector usage(select by id, element, class) and css usage(external, internal)

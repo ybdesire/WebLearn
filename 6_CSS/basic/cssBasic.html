@@ -1,0 +1,28 @@
+<html>
+
+<header>
+	<title>CSS demo</title>
+	
+	<!--internal css-->
+	<style type = "text/css">
+		p {margin-left: 20px;}
+		#lidesc {margin-left: 20px; color: blue;}
+		.liclas {margin-left: 20px; color: grey;}
+	</style>
+	
+	<!--external css-->
+	<link rel="stylesheet" type="text/css" href="myStyle.css" />
+	
+</header>
+
+<body>
+	<p>CSS is 'selector {property1:value; property2:value2 ...}'</p>
+	<li>Usage: internal-element,table + external</li>
+	<li style="color: red; margin-left: 50px;">(1) internal-element CSS</li>
+	<p id="pdesc">(2) internal css table: select by element name<p>
+	<li id="lidesc">(3) internal css table: select by id<li>
+	<li class="liclas">(4) internal css table: select by class<li>
+	<li id="excss">(5)external css table</li>
+</body>
+
+</html>
