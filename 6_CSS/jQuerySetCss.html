@@ -1,0 +1,22 @@
+<html>
+
+<head>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+	<title>Set CSS by jQuery</title>
+</head>
+
+<body>
+	<p id="bgRed">back ground color</p>
+	<p class="bgBlue">back ground color</p>
+</body>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#bgRed").css({"background-color":"red", "width":"150px"});//set multiple properties
+		
+		$(".bgBlue").css("background-color", "blue");//set single property
+		$(".bgBlue").width("150px");//set width property
+	});
+</script>
+
+</html>
