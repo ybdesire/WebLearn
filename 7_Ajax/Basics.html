@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<title>Ajax Basics</title>
+</head>
+
+<body>
+	<p>Ajax Basic: XMLHttpRequest(), open, send</p>
+	<p>Please open onebug to check the GET request</p>
+	<button onclick="AjaxBasics()">asd</button>
+</body>
+
+<script type="text/javascript">
+function AjaxBasics()
+{
+	var location = "http://tb2.bdstatic.com/tb/static-liveshow/widget/spage_liveshow_slide/img/circle_9b839dc.png";//file location at baidu server
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.open("GET", location, true);
+	xmlhttp.send();
+};
+</script>
+
+</html>

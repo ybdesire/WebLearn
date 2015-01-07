@@ -66,3 +66,9 @@ the repository for saving my web development learn process & codes
 
 6_CSS\jQuerySetCss.html
 -> Set CSS property by jQuery.
+
+
+7 Ajax learning
+---------------
+7_Ajax\Basics.html
+-> XMLHttpRequest basic usage. only client demo.
