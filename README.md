@@ -67,6 +67,8 @@ the repository for saving my web development learn process & codes
 6_CSS\jQuerySetCss.html
 -> Set CSS property by jQuery.
 
+6_CSS\div.html
+-> div layout example.
 
 7 Ajax learning
 ---------------
