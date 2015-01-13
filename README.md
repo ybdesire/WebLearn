@@ -70,6 +70,9 @@ the repository for saving my web development learn process & codes
 6_CSS\div.html
 -> div layout example.
 
+6_CSS\box-1.html
+-> margin & border example.
+
 7 Ajax learning
 ---------------
 7_Ajax\Basics.html
