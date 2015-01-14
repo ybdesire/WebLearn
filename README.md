@@ -84,3 +84,13 @@ the repository for saving my web development learn process & codes
 ---------------
 7_Ajax\Basics.html
 -> XMLHttpRequest basic usage. only client demo.
+
+
+8 MVC-ASPNET
+------------
+8_MVC/ASPNET_MVC/Controller/
+-> MVC4 controller only project.
+
+8_MVC/ASPNET_MVC/View/
+-> MVC4 controller + view project.
+
