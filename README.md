@@ -73,6 +73,9 @@ the repository for saving my web development learn process & codes
 6_CSS\box-1.html
 -> margin & border example.
 
+6_CSS\box-2.html
+-> margin & border & padding example.
+
 7 Ajax learning
 ---------------
 7_Ajax\Basics.html
