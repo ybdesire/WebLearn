@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>inline-element</title>
+    <style type="text/css">
+        span {
+            color: red;
+            margin: 100px;/*margin-top/margin-bottom have nothing to do with incline element*/
+        }
+
+        div#pe {
+            color: blue;
+            margin: 100px;
+            display: inline;/*convert block elemnet div to incline element*/
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        this is <span>span</span> element.</br>
+        this is <div id="pe">p</div> element
+    </div>
+</body>
+
+</html>

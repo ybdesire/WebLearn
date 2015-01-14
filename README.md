@@ -76,6 +76,10 @@ the repository for saving my web development learn process & codes
 6_CSS\box-2.html
 -> margin & border & padding example.
 
+6_CSS\inline-element.html
+-> inline element span/ and block element can be convert to incline element by display property.
+
+
 7 Ajax learning
 ---------------
 7_Ajax\Basics.html
