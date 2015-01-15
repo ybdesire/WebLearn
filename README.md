@@ -31,6 +31,9 @@ the repository for saving my web development learn process & codes
 2_JS/module/
 -> JS module usage.
 
+2_JS/GetBrowserLanguage.html
+-> get browser language for FF/Chrome/IE.
+
 3 lib i18next learning
 ----------------------
 

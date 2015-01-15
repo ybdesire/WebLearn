@@ -1,0 +1,17 @@
+<html>
+
+<head>
+	<title>Language</title>
+</head>
+
+<body>
+	<p>the browser langauge is: <span id="lan"></span></p>
+	<p>FF/Chrome support navigator.langauge</p>
+	<p>IE support navigator.userlangauge(OS langauge)</p>
+</body>
+
+<script type="text/javascript">
+	document.getElementById("lan").innerHTML = navigator.language ? navigator.language : navigator.userLanguage;
+</script>
+
+</html>
