@@ -79,6 +79,9 @@ the repository for saving my web development learn process & codes
 6_CSS\inline-element.html
 -> inline element span/ and block element can be convert to incline element by display property.
 
+6_CSS\text-basic.html
+-> CSS control text/paragraph.
+
 
 7 Ajax learning
 ---------------
