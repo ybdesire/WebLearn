@@ -15,6 +15,9 @@ the repository for saving my web development learn process & codes
 1_html/list.html
 -> Order list and un-order list.
 
+1_html/table.html
+-> table with border by css.
+
 
 2 Javascript learning
 ---------------------
