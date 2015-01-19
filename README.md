@@ -12,6 +12,9 @@ the repository for saving my web development learn process & codes
 1_html/staticControls.htm
 -> Static HTML button/text/checkbox/dropdownlist controls
 
+1_html/list.html
+-> Order list and un-order list.
+
 
 2 Javascript learning
 ---------------------
