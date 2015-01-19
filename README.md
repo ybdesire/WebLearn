@@ -18,6 +18,8 @@ the repository for saving my web development learn process & codes
 1_html/table.html
 -> table with border by css.
 
+1_html/a/
+-> a element: link/hover/visited/active.
 
 2 Javascript learning
 ---------------------
