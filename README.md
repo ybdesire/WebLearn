@@ -99,6 +99,9 @@ the repository for saving my web development learn process & codes
 7_Ajax\Basics.html
 -> XMLHttpRequest basic usage. only client demo.
 
+7_Ajax\WebFormAjax\
+-> WebForm server side Ajax request processing demo.
+
 
 8 MVC-ASPNET
 ------------
