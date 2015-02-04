@@ -134,3 +134,28 @@ the repository for saving my web development learn process & codes
 
 9_NodeJS\Module_CommonJS
 -> CommonJS module definition & usage.
+
+
+10_AngularJS\basic
+------------------
+10_AngularJS\basic
+-> Basic knowledge about AngularJS and bi-direction data-bind demo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
