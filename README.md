@@ -119,3 +119,18 @@ the repository for saving my web development learn process & codes
 ---------------
 9_NodeJS\HelloWorld
 -> Basic Node.JS HTTP server demo. 
+
+9_NodeJS\BufferOp.js
+-> Buffer read/write.
+
+9_NodeJS\setTime.js
+-> Timer.
+
+9_NodeJS\File
+-> File read/write.
+
+9_NodeJS\HTTP
+-> HTTP server/client.
+
+9_NodeJS\Module_CommonJS
+-> CommonJS module definition & usage.
