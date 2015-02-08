@@ -141,8 +141,8 @@ the repository for saving my web development learn process & codes
 10_AngularJS\basic
 -> Basic knowledge about AngularJS and bi-direction data-bind demo.
 
-
-
+10_AngularJS\Controler\Basic
+-> Controller definition and ng-controller "hello world" demo.
 
 
 
