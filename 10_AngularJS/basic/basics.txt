@@ -4,3 +4,7 @@
 
 CDN (Content Delivery Network):
 https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.js
+
+//www.w3cschool.cc/try/angularjs/1.2.5/angular.min.js
+
+

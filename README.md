@@ -138,7 +138,7 @@ the repository for saving my web development learn process & codes
 
 10_AngularJS\basic
 ------------------
-10_AngularJS\basic
+10_AngularJS\basic\helloWorld.html
 -> Basic knowledge about AngularJS and bi-direction data-bind demo.
 
 10_AngularJS\Controler\Basic
@@ -147,7 +147,8 @@ the repository for saving my web development learn process & codes
 10_AngularJS\Controler\controllers
 -> Multi-controller definition & ng-repeat usage.
 
-
+10_AngularJS\basic\expression.html
+-> expression bind data to html.
 
 
 
