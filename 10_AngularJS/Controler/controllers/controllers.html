@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html ng-app="ctrlsModule">
+<head>
+	<meta charset = "utf-8">
+</head>
+
+<body>
+	<div ng-controller="helloCtrl">
+		<p>{{greeting.text}}</p>
+	</div>
+	
+	<div ng-controller="namesCtrl">
+		<li ng-repeat="name in names">{{name}}</li>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="../../angular.js"></script>
+<script type="text/javascript" src="ctrls.js"></script>
+
+</html>

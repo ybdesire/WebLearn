@@ -144,8 +144,8 @@ the repository for saving my web development learn process & codes
 10_AngularJS\Controler\Basic
 -> Controller definition and ng-controller "hello world" demo.
 
-
-
+10_AngularJS\Controler\controllers
+-> Multi-controller definition & ng-repeat usage.
 
 
 
