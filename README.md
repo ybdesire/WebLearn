@@ -115,7 +115,7 @@ the repository for saving my web development learn process & codes
 -> MVC4 controller + view project.
 
 8_MVC/ASPNET_MVC/Cookie_MVC_View
--> Add cookie at server side and read the cookie at JS.
+-> Add cookie at server side and read the cookie at JS. JS select cookie by "jquery.cookie.js".
 
 
 9 Node.JS
