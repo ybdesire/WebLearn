@@ -153,8 +153,8 @@ the repository for saving my web development learn process & codes
 10_AngularJS\basic\expression.html
 -> expression bind data to html.
 
-
-
+10_AngularJS\btnClick
+-> ng-click usage
 
 
 

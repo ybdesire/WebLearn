@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+
+<body>
+<div ng-app="btnsModule" ng-controller="btnsCtrl" >
+	<input type="button" ng-click="addCount()" value="Add" />
+	<input type="button" ng-click="minCount()" value="Min" />
+	<input type="button" ng-click="hideCount()" value="Hide" />
+	<p ng-hide="isHide">{{count}}</p>
+</div>
+
+</body>
+<script type="text/javascript" src="../../angular.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</html>
