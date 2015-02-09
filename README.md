@@ -114,6 +114,9 @@ the repository for saving my web development learn process & codes
 8_MVC/ASPNET_MVC/View/
 -> MVC4 controller + view project.
 
+8_MVC/ASPNET_MVC/Cookie_MVC_View
+-> Add cookie at server side and read the cookie at JS.
+
 
 9 Node.JS
 ---------------
