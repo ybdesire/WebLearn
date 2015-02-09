@@ -154,10 +154,10 @@ the repository for saving my web development learn process & codes
 -> expression bind data to html.
 
 10_AngularJS\btnClick
--> ng-click usage
+-> ng-click usage.
 
-
-
+10_AngularJS\module
+-> AngularJS module & controller definition.
 
 
 
