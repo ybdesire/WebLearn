@@ -159,7 +159,8 @@ the repository for saving my web development learn process & codes
 10_AngularJS\module
 -> AngularJS module & controller definition.
 
-
+12_jQueryMobile\HelloWorldOfflineApp
+-> jQueryMobile offline iOS App demo.
 
 
 
