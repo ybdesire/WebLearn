@@ -114,6 +114,9 @@ the repository for saving my web development learn process & codes
 8_MVC/ASPNET_MVC/View/
 -> MVC4 controller + view project.
 
+8_MVC/ASPNET_MVC/Cookie_MVC_View
+-> Add cookie at server side and read the cookie at JS. JS select cookie by "jquery.cookie.js".
+
 
 9 Node.JS
 ---------------
@@ -150,13 +153,14 @@ the repository for saving my web development learn process & codes
 10_AngularJS\basic\expression.html
 -> expression bind data to html.
 
+10_AngularJS\btnClick
+-> ng-click usage.
 
+10_AngularJS\module
+-> AngularJS module & controller definition.
 
-
-
-
-
-
+12_jQueryMobile\HelloWorldOfflineApp
+-> jQueryMobile offline iOS App demo.
 
 
 

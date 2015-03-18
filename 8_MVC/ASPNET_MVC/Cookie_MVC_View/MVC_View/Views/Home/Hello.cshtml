@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Hello</h2>
+<h3>@ViewBag.Message</h3>
+<h4 id="myCookie"></h4>
+
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="~/javascript/jquery.cookie.js"></script>
+<script type="text/javascript" >
+    $(document).ready(function () {
+        var str = $.cookie("MyCookie");
+        $("#myCookie").html(str);
+    });
+</script>
