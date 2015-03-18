@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html ng-app="mCtrl">
+<head>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div  ng-controller="personController">
+		<p> {{person.firstName | uppercase}} </p>
+	</div>
+	<div ng-controller="namesCtrl">
+		<input type="text" ng-model="inputName" />
+		<li ng-repeat="name in names | filter:inputName"> {{name}} </li>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="../angular.js"></script>
+<script>
+	var mctrl = angular.module("mCtrl", []);
+	
+	mctrl.controller("personController", 
+	function personController($scope) {
+		$scope.person = {
+			firstName: "John",
+			lastName: "Doe"
+		};
+	});
+	
+	mctrl.controller("namesCtrl", function($scope){
+		$scope.names=["John", "Jack", "Lilei", "HanMeimei"];
+	});
+	
+</script> 
+</html>
