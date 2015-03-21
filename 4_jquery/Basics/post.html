@@ -1,0 +1,27 @@
+<html>
+
+<head>
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+
+<body>
+	<label>post content:</label>
+	<input type="text"/>
+	<button type="button">post</button>
+	<p>return</p>
+</body>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("button").click(function(){
+		var data = $("input").html();
+		$.post("http://bbs.nju.edu.cn/bbsfind", data, success(data){
+			$("p").html=data;
+		});
+	});
+
+});
+</script>
+
+
+</html>
