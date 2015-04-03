@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>local storage demo</title>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="inputText" />
+        <button onclick="setInput()">Set</button>
+    </div>
+    <div>
+        <button onclick="readStorage()">Read</button>
+        <input type="text" id="outText" />
+    </div>
+</body>
+
+<script type="text/javascript">
+    function setInput() {
+        window.localStorage.setItem("inStr", document.getElementById("inputText").value);
+    }
+
+    function readStorage() {
+        document.getElementById("outText").value = window.localStorage.getItem("inStr");
+    }  
+
+</script>
+
+</html>
