@@ -24,7 +24,18 @@ namespace MVC_View.Controllers
         //The 'event' function for button "Sign In" at Index.cshtml
         public String SignIn(string userName, string passwd)
         {
-            return userName + "   " + passwd;
+
+            if(Session["isAuth"]==null)
+            {
+                Session["isAuth"] = "YES";//creat new session
+                Session["user_name"]=userName;
+                Session["user_password"]=passwd;
+                return "NO";
+            }
+            else
+            {
+                return Session["user_name"].ToString();
+            }
         }
 
     }
