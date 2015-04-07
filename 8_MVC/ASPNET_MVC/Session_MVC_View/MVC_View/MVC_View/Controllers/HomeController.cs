@@ -34,7 +34,7 @@ namespace MVC_View.Controllers
             }
             else
             {
-                return Session["user_name"].ToString();
+                return Session.SessionID.ToString();
             }
         }
 
