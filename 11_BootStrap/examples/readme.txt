@@ -4,7 +4,7 @@ http://getbootstrap.com/examples/grid/
 ## col-md-6
 
 2 Nav bar
-
+#container: class. keep more space at page left & right. layout more beautiful.
 
 ----------------------------------
 Buttons
