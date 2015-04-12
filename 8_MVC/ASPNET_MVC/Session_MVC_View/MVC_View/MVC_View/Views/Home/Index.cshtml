@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Login Page</h2>
+@using (Html.BeginForm("SignIn", "Home", FormMethod.Post))//produce an Form element<form action="/Home/SignIn" method="post" />, SignIn() is the 'event' funciton for button click
+{
+    <label>user name: </label>
+    @Html.TextBox("userName");
+    
+    <label>password: </label>
+    @Html.TextBox("passwd");
+    
+    <input type="submit" value="Sign In" />
+}
