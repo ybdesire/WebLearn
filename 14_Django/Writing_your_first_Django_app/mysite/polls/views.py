@@ -14,7 +14,14 @@ def index(request):
 	return HttpResponse(template.render(context))
 
 def detail(request, question_id):
-	return HttpResponse("You're looking at question %s" % question_id)
+	latest_question_list = Question.objects.order_by('-pub_date')[:5]
+	question = latest_question_list[int(question_id)-1]
+	template = loader.get_template('polls/detail.html')
+	context = RequestContext(request, {
+		'question':question,
+	})
+	return HttpResponse(template.render(context))
+#	return HttpResponse("You're looking at question %s" % question_id)
 	
 def results(request, question_id):
 	response = "You're looking at the results of question %s."
