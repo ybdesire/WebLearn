@@ -1,3 +1,6 @@
+IDE: python 3.4
+
+
 hello_world project steps
 
 >django-admin startproject mysite
