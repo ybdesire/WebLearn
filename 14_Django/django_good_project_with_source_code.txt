@@ -2,5 +2,6 @@ http://lcfcn.com/
 https://github.com/rafalp/Misago
 https://github.com/divio/django-cms
 
+http://stackoverflow.com/questions/5871730/need-a-minimal-django-file-upload-example
 
 http://django-china.cn/
