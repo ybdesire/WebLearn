@@ -1,4 +1,4 @@
-IDE: python 3.4
+IDE: python 3.4(django 1.8.2)
 
 
 hello_world project steps
