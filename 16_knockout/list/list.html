@@ -1,0 +1,20 @@
+<html>
+
+<head>
+	<script src="knockout-3.3.0.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<form data-bind="submit: addItem">
+	New Item
+	<input data-bind='value: itemToAdd, valueUpdate: "afterkeydown"'></input>
+	<button type="submit" data-bind="enable: itemToAdd().length>0">add</button>
+	<p>Your Items</p>
+	<select multiple="multiple" style="width:200px" data-bind="options: items"></select>
+	</form>
+	
+</body>
+
+<script src="view_model.js" type="text/javascript"></script>
+
+</html>
