@@ -8,13 +8,22 @@
     ```
 
 ## 1. Install tool gettext for windows at [here](http://gnuwin32.sourceforge.net/packages/gettext.htm)
-## 2. Specify translation strings at source code(views.py) by ugettext() function
+
+## 2. Specify translation strings at source code
+### (1) views.py by ugettext() function
 ```python
 from django.utils.translation import ugettext
 
 def index(request):
 	return HttpResponse(ugettext('hello world!'))
 ```
+### (2) template by tag {% trans %}
+```html
+{% load i18n %}
+<h1>translation</h1>
+<p>{% trans "This is the p element." %}</p>
+```
+
 ## 3. Create Language Files
 ### (1) 'mkdir locale' at project path
 ### (2) Create message file(.po file). This step can extract hard code string
@@ -30,6 +39,7 @@ USE_L10N = True
 LOCALE_PATHS = ('locale/',
 )
 ```
+
 ## 4. Update all messages
 ```bash
 django-admin.py makemessages -a
