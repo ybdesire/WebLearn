@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-08 01:42-0400\n"
+"POT-Creation-Date: 2015-07-08 03:26-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\i18n\views.py:8
+#: .\i18n\templates\tmp.html:3
+msgid "This is the p element."
+msgstr "[de]This is the p element.[de]"
+
+#: .\i18n\views.py:11
 msgid "hello world!"
-msgstr "[de]hello world![de]"
+msgstr "[de]hello world[de]"
