@@ -1,0 +1,74 @@
+.blended_grid{
+display : block;
+width : 1200px;
+overflow : auto;
+margin : 0 auto;
+}
+.pageHeader{
+background-color : rgba(50, 0, 0, 0.5);
+float : left;
+clear : none;
+height : 100px;
+width : 1200px;
+}
+.pageBarLeft{
+float : left;
+clear : none;
+min-width : 80px;
+min-height : 80px;
+}
+.pageLeftTop{
+background-color : rgba(0, 50, 0, 0.5);
+float : none;
+clear : both;
+height : 300px;
+width : 200px;
+}
+.pageLeftMid{
+background-color : rgba(0, 100, 0, 0.5);
+float : none;
+clear : both;
+height : 300px;
+width : 200px;
+}
+.pageLeftBottom{
+background-color : rgba(0, 150, 0, 0.5);
+float : none;
+clear : both;
+height : 300px;
+width : 200px;
+}
+.pageContent{
+background-color : rgba(0, 0, 0, 0.5);
+float : left;
+clear : none;
+height : 900px;
+width : 800px;
+}
+.pageBarRight{
+float : left;
+clear : none;
+min-width : 80px;
+min-height : 80px;
+}
+.pageRightTop{
+background-color : rgba(0, 0, 50, 0.5);
+float : none;
+clear : both;
+height : 300px;
+width : 200px;
+}
+.pageRightMid{
+background-color : rgba(0, 0, 100, 0.5);
+float : none;
+clear : both;
+height : 300px;
+width : 200px;
+}
+.pageRightBottom{
+background-color : rgba(0, 0, 150, 0.5);
+float : none;
+clear : both;
+height : 300px;
+width : 200px;
+}
