@@ -1,0 +1,85 @@
+.blended_grid{
+	display : block;
+	width : 1000px;
+	overflow : auto;
+	margin : 0 auto;
+}
+.pageBanner{
+	background-color : rgba(50, 0, 100, 0.5);
+	float : left;
+	clear : none;
+	height : 160px;
+	width : 1000px;
+}
+.pageHeader{
+	float : left;
+	height : 50px;
+	width : 1000px;
+	background-color: #b9f289
+}
+.pageNews{
+	background-color : rgba(50, 100, 0, 0.5);
+	float : left;
+	clear : none;
+	height : 400px;
+	width : 1000px;
+}
+.pageNewsLeft{
+	background-color : rgb(255, 255, 255);
+	float : left;
+	clear : none;
+	height : 400px;
+	width : 500px;
+}
+.pageNewsCarousel{
+	background-color : rgba(50, 200, 100, 0.5);
+	float : left;
+	clear : none;
+	height : 300px;
+	width : 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.pageNewsRight{
+	background-color : rgba(50, 100, 200, 0.5);
+	float : left;
+	clear : none;
+	height : 400px;
+	width : 500px;
+}
+.pageBarLeft{
+	float : left;
+	clear : none;
+	min-width : 200px;
+	min-height : 80px;
+}
+.pageLeftTop{
+	background-color : rgba(0, 50, 0, 0.5);
+	float : none;
+	clear : both;
+	height : 300px;
+	width : 200px;
+}
+.pageLeftMid{
+	background-color : rgba(0, 100, 0, 0.5);
+	float : none;
+	clear : both;
+	height : 300px;
+	width : 200px;
+}
+.pageLeftBottom{
+	background-color : rgba(0, 150, 0, 0.5);
+	float : none;
+	clear : both;
+	height : 300px;
+	width : 200px;
+}
+.pageContent{
+	background-color : rgba(0, 0, 0, 0.5);
+	float : left;
+	clear : none;
+	height : 900px;
+	width : 800px;
+}

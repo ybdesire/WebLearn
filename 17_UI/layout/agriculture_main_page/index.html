@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="blended_layout.css">
+    <link rel="stylesheet" type="text/css" href="cssreset-min.css">
+	
+    <title>Agriculture</title>
+	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>    
+	
+	<!--modify bootstrap navbar default color   http://work.smarchal.com/twbscolor/-->
+	<link rel="stylesheet" type="text/css" href="navbar_color.css">
+
+</head>
+
+<body>
+    <div class="blended_grid">
+		<div class="pageBanner">
+			<img src="image/banner.jpg"/>
+		</div>
+		
+        <div class="pageHeader">
+			<nav class="navbar-nav navbar-default">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home Page</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Settings</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown">DropDown<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">内网办公</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+							<li class="divider"></li>
+							<li><a href="#">One more separated link</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">New Info</a></li>
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Another Link</a></li>
+				</ul>
+			</nav>
+        </div>
+		
+        <div class="pageNews">
+			<div class="pageNewsLeft">
+				<div class="pageNewsCarousel">
+					<div id="mycarousel" class="carousel slide">
+						<!--carousel item-->
+						<div class="carousel-inner">
+							<div class="active item"><img src="image/fruit1.jpg"/></div>
+							<div class="item"><img src="image/fruit2.jpg"/></div>
+							<div class="item"><img src="image/fruit3.jpg"/></div>
+						</div>
+						<!--carousel nav--> 
+						<a class="carousel-control left" data-slide="prev" href="#" id="prev_carousel">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="carousel-control right" data-slide="next" href="#" id="next_carousel">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+						<!--carousel indicator-->
+						<ol class="carousel-indicators">
+							<li data-slide-to="0"></li>
+							<li data-slide-to="1"></li>
+							<li data-slide-to="2"></li>
+						</ol>
+					</div>
+
+				</div>
+			</div>
+			<div class="pageNewsRight">
+			</div>
+        </div>
+
+        <div class="pageBarLeft">
+            <div class="pageLeftTop">
+            </div>
+            <div class="pageLeftMid">
+            </div>
+            <div class="pageLeftBottom">
+            </div>
+        </div>
+
+        <div class="pageContent">
+        </div>
+
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#mycarousel").carousel({
+            interval: 3000,
+            pause:false
+        });
+    });
+
+    $("#prev_carousel").click(function () {
+        $("#mycarousel").carousel("prev");
+    });
+    $("#next_carousel").click(function () {
+        $("#mycarousel").carousel("next");
+    });
+</script>
