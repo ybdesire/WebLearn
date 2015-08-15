@@ -1,0 +1,66 @@
+
+
+.blended_grid{
+	display : block;
+	width : auto;
+	margin : 0 auto;
+}
+
+.pageBanner{
+	width : 1180px;
+	height : 59px;
+	margin : 0 auto;
+}
+.logoImage{
+	float : left;
+}
+.searchBox{
+	float : left;
+	margin-left : 200px;
+	margin-top : 5px;
+}
+.contactInfo{
+	float : left;
+	margin-left : 200px;
+	margin-top : 18px;
+	
+}
+.search-btn{
+	background-color : #a4cbff;
+}
+
+.pageHeader{
+	height : 50px;
+	margin : 0 auto;
+	background-color: #2577e3
+}
+.pageContentHeader{
+	width : 1180px;
+	height : 22px;
+	margin : 0 auto;
+}
+
+.pageContent{
+	background-color : rgba(50, 0, 100, 0.5);
+	width : 1180px;
+	height : 2000px;
+	margin : 0 auto;
+}
+.contentLeft{
+	background-color : rgba(0, 50, 100, 0.5);
+	width : 157px;
+	height : 1000px;
+	float : left;
+}
+.contentCenter{
+	background-color : rgba(0, 100, 100, 0.5);
+	width : 30px;
+	height : 1000px;
+	float : left;
+}
+.contentRight{
+	background-color : rgba(0, 10, 100, 0.5);
+	width : 993px;
+	height : 1000px;
+	float : left;
+}
