@@ -56,8 +56,59 @@
 	float : left;
 }
 .contentRight{
-	background-color : rgba(0, 10, 100, 0.5);
 	width : 993px;
 	height : 1000px;
 	float : left;
+}
+.sectionUserInfo{
+	width : 993px;
+	height : 400px;
+	border-top: 2px solid #155ebd;
+	border-bottom: 1px solid #d2ddeb;
+    border-left: 1px solid #d2ddeb;
+    border-right: 1px solid #d2ddeb;
+}
+.userImage{
+	float : left;
+	margin : 10px
+}
+.userInfoDetail{
+	float : left;
+	margin : 10px 0px 0px 50px;
+}
+.userInfoList{
+	width : 993px;
+	height : 140px;
+	margin : 10px 0px 0px 0px;
+}
+.userLevel{
+	float : left;
+}
+.userLevelProgress{
+	float : left;
+	margin : 0px 20px 0px 20px
+}
+.levelDeadline{
+	margin : 10px 0px 0px 00px;
+}
+
+progress {
+    width: 160px;
+    border: 1px solid #0064B4;  
+    background-color:#e6e6e6;
+    color: #0064B4; /*IE10*/
+}
+
+progress::-moz-progress-bar { background: #0064B4; }
+progress::-webkit-progress-bar { background: #e6e6e6; }
+progress::-webkit-progress-value  { background: #0064B4; }
+
+.orderManageTitle{
+	font-family : Simsun;
+	font-size : 20px;
+}
+
+.orderManageDetail{
+	background-color : #f1f8fe;
+	height : 30px;
 }
