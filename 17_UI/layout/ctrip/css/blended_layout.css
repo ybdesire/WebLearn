@@ -41,19 +41,16 @@
 }
 
 .pageContent{
-	background-color : rgba(50, 0, 100, 0.5);
 	width : 1180px;
 	height : 2000px;
 	margin : 0 auto;
 }
 .contentLeft{
-	background-color : rgba(0, 50, 100, 0.5);
 	width : 157px;
 	height : 1000px;
 	float : left;
 }
 .contentCenter{
-	background-color : rgba(0, 100, 100, 0.5);
 	width : 30px;
 	height : 1000px;
 	float : left;

@@ -9,12 +9,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>    
-	<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="lib/jquery/jquery-2.1.4.min.js"></script>
+    <script src="lib/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>    
+	<link href="lib/bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
 
 	<!--modify bootstrap navbar default color   http://work.smarchal.com/twbscolor/-->
 	<link rel="stylesheet" type="text/css" href="css/navbar_color.css">
+	  
+	<link rel="stylesheet" href="lib/jquery-ui-1.11.4.custom/jquery-ui.css">
+	<script src="lib/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
 
 </head>
 
@@ -40,8 +43,8 @@
 		</div>
 		
         <div class="pageHeader">
-			<nav class="navbar-nav navbar-default ">
-				<ul class="nav navbar-nav">
+			<nav class="navbar-nav navbar-default hnavbar-nav hnavbar-default">
+				<ul class="nav navbar-nav hnav hnavbar-nav">
 					<li><a href="#">首页</a></li>
 					<li><a href="#">酒店</a></li>
 					<li><a href="#">旅游</a></li>
@@ -81,6 +84,48 @@
 		
 		<div class="pageContent">
 			<div class="contentLeft">
+				<div id="accordion">
+					<h3>我的首页</h3>
+					<div>
+						<ul>
+							<li><a href="#">全部订单</a></li>
+							<li><a href="#">机票订单</a></li>
+							<li><a href="#">酒店订单</a></li>
+						</ul>
+					</div>
+					<h3>我的行程</h3>
+					<div>
+						<ul>
+							<li><a href="#">全部订单</a></li>
+							<li><a href="#">机票订单</a></li>
+							<li><a href="#">酒店订单</a></li>
+						</ul>
+					</div>
+					<h3>订单中心</h3>
+					<div>
+						<ul>
+							<li><a href="#">全部订单</a></li>
+							<li><a href="#">机票订单</a></li>
+							<li><a href="#">酒店订单</a></li>
+						</ul>
+					</div>
+					<h3>个人中心</h3>
+					<div>
+						<ul>
+							<li><a href="#">全部订单</a></li>
+							<li><a href="#">机票订单</a></li>
+							<li><a href="#">酒店订单</a></li>
+						</ul>
+					</div>
+					<h3>我的主页</h3>
+					<div>
+						<ul>
+							<li><a href="#">全部订单</a></li>
+							<li><a href="#">机票订单</a></li>
+							<li><a href="#">酒店订单</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 			<div class="contentCenter">
 			</div>
@@ -92,6 +137,10 @@
 </html>
 <script type="text/javascript">
     $(document).ready(function () {
+		$(function() {
+			$( "#accordion" ).accordion();
+		});
+
     });
 
 </script>
