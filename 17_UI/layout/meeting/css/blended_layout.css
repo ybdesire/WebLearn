@@ -1,0 +1,83 @@
+
+
+.blended_grid{
+	display : block;
+	width : auto;
+	margin : 0 auto;
+}
+
+.pageHeaderAd{
+	height : 40px;
+	background-color:#77aaff;
+	margin : 0 auto;
+}
+
+.pageBanner{
+	width : 1180px;
+	height : 59px;
+	margin : 0 auto;
+}
+.logoImage{
+	float : left;
+}
+.searchBox{
+	float : left;
+	margin-left : 200px;
+	margin-top : 5px;
+}
+.contactInfo{
+	float : left;
+	margin-left : 200px;
+	margin-top : 18px;
+	
+}
+.search-btn{
+	background-color : #a4cbff;
+}
+
+.pageHeader{
+	height : 50px;
+	margin : 0 auto;
+	background-color: #2577e3
+}
+.pageContentHeader{
+	width : 1180px;
+	height : 22px;
+	margin : 10px auto;
+}
+
+.pageContent{
+	width : 1180px;
+	height : 2000px;
+	margin : 0 auto;
+}
+.contentLeft{
+	width : 158px;
+	height : 220px;
+	float : left;
+	border-top: 2px solid #155ebd;
+	border-bottom: 1px solid #d2ddeb;
+    border-left: 1px solid #d2ddeb;
+    border-right: 1px solid #d2ddeb;	
+}
+.contentCenter{
+	width : 10px;
+	height : 1000px;
+	float : left;
+}
+.contentRight{
+	width : 1003px;
+	height : 1000px;
+	float : left;
+	background-color: #8888e3;
+}
+.inviteProcess{
+	width : 1003px;
+	height : 100px;
+	background-color: #77aaff;
+}
+.meetingStatistic{
+	width : 1003px;
+	height : 100px;
+	background-color: #ff77aa;
+}

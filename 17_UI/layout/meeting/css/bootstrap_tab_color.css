@@ -1,0 +1,26 @@
+.take-all-space-you-can{
+    width:50%;
+}
+.nav-tabs{/*not selected tab*/
+  background-color: #cccccc;
+}
+.tab-content{/*content*/
+    background-color:#fff;
+    padding:5px
+}
+.nav-tabs > li > a{
+  border: medium none;
+}
+.nav-tabs > li > a:hover{
+	background-color: #fff;
+    border: medium none;
+    border-radius: 0;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+	color : #000ba9;
+	background-color: #fff;
+    border: medium none;
+    border-radius: 0;	
+} 

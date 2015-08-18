@@ -1,0 +1,18 @@
+.pub-tit {
+    border-left: 5px solid #00aa84;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.big-checkbox{
+	width: 15px; 
+	height: 15px;
+}
+
+.td-table{
+	width: 250px;
+	text-align: center;
+}
