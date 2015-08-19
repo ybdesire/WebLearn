@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
+<html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="css/blended_layout.css">
@@ -90,6 +91,342 @@
 			</div>
 		</div>
 		
+		<div class="pageContent">
+			<div class="contentLeft">
+				<image src="image/leftImage.png"/>
+			</div>
+			
+			<div class="contentCenter">
+			</div>
+			
+			<div class="contentRight">
+				<div class="inviteProcess">
+					招标流程广告位
+				</div>
+				
+				<div class="meetingStatistic">
+					会议需求统计
+				</div>
+				
+				<div class="releaseContent">
+				    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+						<li class="active take-all-space-you-can">
+							<a href="#release_detailed" data-toggle="tab">
+								<div align="center">
+									<h2>精准发布</h2>
+									<p>需求更详细 推荐更快速 报价更精准 </p>
+								</div>
+							</a>
+						</li>
+						<li class="take-all-space-you-can">
+							<a href="#release_quick" data-toggle="tab">
+								<div align="center">
+									<h2>快速发布</h2>
+									<p>5秒发布 快速反馈 便捷体验</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+	
+					<div id="my-tab-content" class="tab-content" style="padding: 5px 5px 5px 20px">
+						<div class="tab-pane active" id="release_detailed">
+							<div align="center">
+								<h4 class="pub-tit">
+									<span>基本需求</span>
+								</h4>
+							</div>
+							
+							<div class="option" style="margin: 5px 0px">
+								<p style="font-weight: bold; font-size: 18px;"><span style="color: red">*</span>酒店位置 
+									<a href="#">
+										<span class="glyphicon glyphicon-question-sign"></span>
+									</a>
+								</p>								
+								<a href="#">
+									<image src="image/map.png"/>
+								</a>
+								<span class="glyphicon glyphicon-chevron-left"/>
+								<span>点击左侧地图精确选择酒店位置</span><span style="color: red">(重要)</span>
+							</div>
+							<div class="option" style="margin: 5px 0px">
+								<p style="font-weight: bold; font-size: 18px;"><span style="color: red">*</span>需要的场地类型（可多选） </p>
+								 <div class="checkbox">
+									<label style="margin: 0px 20px; font-size: 15px">
+									  <input type="checkbox" class="big-checkbox"> 五星豪华标准
+									</label>
+									<label style="margin: 0px 20px; font-size: 15px">
+									  <input type="checkbox" class="big-checkbox"> 四星中高档标准
+									</label>
+									<label style="margin: 0px 20px; font-size: 15px">
+									  <input type="checkbox" class="big-checkbox"> 三星经济普通 
+									</label>
+									<label style="margin: 0px 20px; font-size: 15px">
+									  <input type="checkbox" class="big-checkbox"> 特色场地(会所餐厅，会议中心等)
+									</label>
+								</div>
+							</div>
+							<div class="option" style="margin: 5px 0px">
+								<p style="font-weight: bold; font-size: 18px;"><span style="color: red">*</span>开会日期 </p>
+								<div class="form-group" >
+									<div class="input-group date" id="datetimepickerBeginDate" style="width: 200px; float: left">
+										<input type="text" class="form-control" />
+										<span class="input-group-addon">
+											<span class="glyphicon glyphicon-calendar"></span>
+										</span>
+									</div>
+									<div style="margin: 2px 20px;float: left"> 至 </div>
+									<div class="input-group date" id="datetimepickerEndDate" style="width: 200px;">
+										<input type="text" class="form-control" />
+										<span class="input-group-addon">
+											<span class="glyphicon glyphicon-calendar"></span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="option" style="margin: 5px 0px">
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label class="col-md-3">
+											<p style="font-weight: bold; font-size: 18px; padding: 5px 0px"><span style="color: red">*</span>最多参会人数</p>
+										</label>
+										<div class="col-md-2">
+											<input type="text" class="form-control">
+										</div>
+										<div class="col-md-7">
+											<p style="font-size: 18px; padding: 5px 0px">人</p>
+										</div>
+										
+									</div>
+								</form>
+							</div>
+							<div class="option" style="margin: 5px 0px">
+								<p style="font-weight: bold; font-size: 18px;">餐饮和客房需求（选填）</p>
+								 <div class="checkbox">
+									<div>
+										<label style="margin: 0px 20px; font-size: 18px">
+										  <input type="checkbox" class="big-checkbox" id="isMealNeed"> 需要用餐
+										</label>
+									</div>
+									<div id="mealDetail" style="margin: 0px 50px">
+										<span>用餐人数：</span><input type="text" style="width: 50px"/><span>人</span>
+										<span style="margin: 0px 20px">用餐时间： </span>
+										<label style="margin: 0px 5px">
+											<input type="checkbox"> 午餐
+										</label>
+										<label style="margin: 0px 5px">
+											<input type="checkbox"> 晚餐
+										</label>
+										<span style="margin: 0px 20px">人均预算 </span>
+										<select style=" width: 80px">
+											<option>100</option>
+											<option>200</option>
+											<option>300</option>
+											<option>400</option>
+										</select>
+										<span>元</span>
+									</div>
+									<div>
+										<label style="margin: 0px 20px; font-size: 18px">
+										  <input type="checkbox" class="big-checkbox" id="isRoomNeed"> 需要用房(普通标间)
+										</label>
+									</div>
+									<div id="roomDetail" style="margin: 0px 50px">
+										<table>
+											<tr style="font-weight: bold; font-size: 15px">
+												<td class="td-table">日期</td>
+												<td class="td-table">间数</td>
+												<td class="td-table">预算</td>
+											</tr>
+											<tr id="firstRoomDetail">
+												<td class="td-table">
+													<div align="center" style="margin: 0px 60px">
+														<div class="input-group date" id="datetimepickerFirstRoomDate" style="width: 200px; float: left">
+															<input type="text" class="form-control" />
+															<span class="input-group-addon">
+																<span class="glyphicon glyphicon-calendar"></span>
+															</span>
+														</div>
+													</div>
+												</td>
+												<td class="td-table">
+													<div align="center" style="margin: 0px 60px">
+														<input type="text" class="form-control"/>
+													</div>
+												</td>
+												<td class="td-table">
+													<div align="center" style="margin: 0px 60px">
+														<select class="form-control">
+															<option>200</option>
+															<option>500</option>
+															<option>1000</option>
+															<option>200</option>
+														</select>
+													</div>
+												</td>
+												<td >
+													<button id="firstRoomDetailRemoveBtn" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+												</td>
+											</tr>
+											<tr id="secondRoomDetail">
+												<td class="td-table">
+													<div align="center" style="margin: 0px 60px">
+														<div class="input-group date" id="datetimepickerSecondRoomDate" style="width: 200px; float: left">
+															<input type="text" class="form-control" />
+															<span class="input-group-addon">
+																<span class="glyphicon glyphicon-calendar"></span>
+															</span>
+														</div>
+													</div>
+												</td>
+												<td class="td-table">
+													<div style="margin: 0px 60px">
+														<input type="text" class="form-control"/>
+													</div>
+												</td>
+												<td class="td-table">
+													<div style="margin: 0px 60px">
+														<select class="form-control">
+															<option>200</option>
+															<option>500</option>
+															<option>1000</option>
+															<option>200</option>
+														</select>
+													</div>
+												</td>
+												<td>
+													<button type="button" id="secondRoomDetailRemoveBtn" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+												</td>
+											</tr>
+										</table>
+									</div>
+									
+								</div>
+							</div>
+							<div class="option" style="margin: 5px 0px">
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label class="col-md-4">
+											<p style="font-weight: bold; font-size: 18px; padding: 5px 0px"><span style="color: red">*</span>会议总预算(含餐饮客房预算)</p>
+										</label>
+										<div class="col-md-2">
+											<input type="text" class="form-control">
+										</div>
+										<div class="col-md-6">
+											<p style="font-size: 18px; padding: 5px 0px">元以内</p>
+										</div>
+										
+									</div>
+								</form>
+							</div>
+							
+							<div class="option" style="margin: 5px 0px">
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label class="col-md-3">
+											<p style="font-weight: bold; font-size: 18px; padding: 5px 0px"><span style="color: red">*</span>酒店投标截止日期</p>
+										</label>
+										<div class="col-md-3">
+											<div class="input-group date" id="datetimepickerInviteDeadLine" style="width: 200px; float: left">
+												<input type="text" class="form-control" />
+												<span class="input-group-addon">
+													<span class="glyphicon glyphicon-calendar"></span>
+												</span>
+											</div>											
+										</div>
+										<div class="col-md-6">
+											<p style="font-size: 18px; padding: 5px 0px">过了截止日期，无法报销</p>
+										</div>
+										
+									</div>
+								</form>
+							</div>
+
+							<div class="option" style="margin: 5px 0px">
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label class="col-md-12">
+											<p style="font-weight: bold; font-size: 18px; padding: 5px 0px">舞美设施道具</p>
+										</label>
+										<div class="checkbox">
+											<label style="margin: 0px 20px; font-size: 18px" class="col-md-12">
+											  <input type="checkbox" class="big-checkbox"> 道具1
+											</label>
+											<label style="margin: 0px 20px; font-size: 18px" class="col-md-12">
+											  <input type="checkbox" class="big-checkbox"> 道具2
+											</label>
+										</div>
+									</div>
+								</form>
+							</div>							
+							<div class="option" style="margin: 5px 0px">
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label class="col-md-2">
+											<p style="font-weight: bold; font-size: 18px; padding: 5px 0px">其他需求</p>
+										</label>
+										<div class="col-md-6">
+											<textarea class="form-control" rows="5" id="comment"></textarea>
+										</div>
+								
+									</div>
+								</form>
+							</div>	
+							
+							<div class="option" style="margin: 5px 0px">
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label class="col-md-2">
+											<p style="font-weight: bold; font-size: 18px; padding: 5px 0px">公司名称</p>
+										</label>
+										<div class="col-md-4">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-2">
+											<p style="font-weight: bold; font-size: 18px; padding: 5px 0px">联系人</p>
+										</label>
+										<div class="col-md-4">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-2">
+											<p style="font-weight: bold; font-size: 18px; padding: 5px 0px">联系电话</p>
+										</label>
+										<div class="col-md-4">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-md-2">
+											<p style="font-weight: bold; font-size: 18px; padding: 5px 0px">常用邮箱</p>
+										</label>
+										<div class="col-md-4">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="checkbox">
+										<label style="margin: 0px 20px; font-size: 18px" class="col-md-5">
+										  <input type="checkbox" class="big-checkbox"> 不允许商家与我联系，仅接受淘会场在线报价
+										</label>
+										<label style="margin: 0px 20px; font-size: 18px" class="col-md-6">
+										  <input type="checkbox" class="big-checkbox"> 不允许商家与我联系，仅接受淘会场在线报价
+										</label>
+									</div>
+									<div class="form-group" style="width: 300px; align: center; margin: 10px 300px">
+										<button type="button" class="btn btn-success btn-block" style="font-size: 25px">发布需求</button>
+									</div>
+								</form>
+							</div>							
+						</div>
+						
+						
+					</div>
+
+				</div>
+			</div>
+		</div>
     </div>
 </body>
 </html>
