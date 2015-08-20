@@ -67,8 +67,12 @@
 }
 .contentRight{
 	width : 1003px;
-	height : 1000px;
 	float : left;
+	border-top: 2px solid #155ebd;
+	border-bottom: 1px solid #d2ddeb;
+    border-left: 1px solid #d2ddeb;
+    border-right: 1px solid #d2ddeb;
+	padding-left: 20px
 	background-color: #8888e3;
 }
 .inviteProcess{
