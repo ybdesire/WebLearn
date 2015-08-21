@@ -1,0 +1,21 @@
+.title2 {
+    color: #0090ee;
+    font-family: "Microsoft Yahei";
+    font-size: 22px;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+ .title3 {
+    background: #0066cc none repeat scroll 0 0;
+    color: #fff;
+    font-family: "Microsoft yahei";
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}

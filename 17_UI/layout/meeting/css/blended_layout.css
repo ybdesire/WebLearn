@@ -47,15 +47,23 @@
 }
 
 .pageContent{
-	width : 1180px;
-	height : 2000px;
+	width : 1250px;
 	margin : 0 auto;
 }
 .contentLeft{
-	width : 158px;
-	height : 220px;
+	width : 230px;
 	float : left;
+}
+.contentLeftUp{
+	margin: 0px 0px 5px 0px;
 	border-top: 2px solid #155ebd;
+	border-bottom: 1px solid #d2ddeb;
+    border-left: 1px solid #d2ddeb;
+    border-right: 1px solid #d2ddeb;	
+}
+.contentLeftDown{
+	margin: 5px 0px;
+	border-top: 1px solid #d2ddeb;
 	border-bottom: 1px solid #d2ddeb;
     border-left: 1px solid #d2ddeb;
     border-right: 1px solid #d2ddeb;	
@@ -67,8 +75,12 @@
 }
 .contentRight{
 	width : 1003px;
-	height : 1000px;
 	float : left;
+	border-top: 2px solid #155ebd;
+	border-bottom: 1px solid #d2ddeb;
+    border-left: 1px solid #d2ddeb;
+    border-right: 1px solid #d2ddeb;
+	padding-left: 20px
 	background-color: #8888e3;
 }
 .inviteProcess{
@@ -80,4 +92,8 @@
 	width : 1003px;
 	height : 100px;
 	background-color: #ff77aa;
+}
+.pageBottom{
+	width : 1250px;
+	margin : 0 auto;
 }
