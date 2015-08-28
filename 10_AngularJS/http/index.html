@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="auth">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div ng-controller="getAuth">
+		<ul>
+			<li>UserName <input type="text" ng-model="userInfo.username"/></li>
+			<li>Password <input type="text" ng-model="userInfo.password"/></li>
+			<li>{{userInfo.username}}</li>
+			<li>{{userInfo.password}}</li>
+			<button ng-click="getAuthID()">Auth</button>
+		</ul>
+		<ul>
+			<li ng-bind="userInfo.authid"></li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="angular.js"></script>
+	<script type="text/javascript" src="ctrl.js"></script>
+
+</body>
+</html>
