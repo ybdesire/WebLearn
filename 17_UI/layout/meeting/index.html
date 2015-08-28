@@ -21,6 +21,7 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap_tab_color.css">
 	<link rel="stylesheet" type="text/css" href="css/release_content.css">
+	<link rel="stylesheet" type="text/css" href="css/page_content_left.css">
 	
 	<script src="js/bootstrap-datepicker.js"></script>
 	<script src="js/bootstrap-datepicker.zh-CN.js"></script>
@@ -54,33 +55,39 @@
 		</div>
 		
         <div class="pageHeader">
-			<nav class="navbar-nav navbar-default hnavbar-nav hnavbar-default">
-				<ul class="nav navbar-nav hnav hnavbar-nav">
-					<li><a href="#">首页</a></li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">找场地<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">国内场地</a></li>
-							<li class="divider"></li>
-							<li><a href="#">国际场地</a></li>
-							<li class="divider"></li>
-							<li><a href="#">场地动态</a></li>
-						</ul>
-					</li>
-					<li><a href="#">配套服务</a></li>
-					<li><a href="#">发布大厅</a></li>
-					<li><a href="#">需求大厅</a></li>
-					<li><a href="#">活动策划</a></li>
-					<li><a href="#">团购</a></li>
-					<li><a href="#">攻略</a></li>
-					<li><a href="#">全球购</a></li>
-					<li><a href="#">礼品卡</a></li>
-					<li><a href="#">商旅</a></li>
-					<li><a href="#">更多</a></li>
-					<li><a href="#">游轮</a></li>
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-6" style="font-size:16px; font-weight: bold;">
+				<nav class="navbar-nav navbar-default hnavbar-nav hnavbar-default" style="align: center">
+					<ul class="nav navbar-nav hnav hnavbar-nav">
+						<li><a href="#">首页</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown">找场地<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">国内场地</a></li>
+								<li class="divider"></li>
+								<li><a href="#">国际场地</a></li>
+								<li class="divider"></li>
+								<li><a href="#">场地动态</a></li>
+							</ul>
+						</li>
+						<li><a href="#">会议套餐</a></li>
+						<li><a href="#">配套服务</a></li>
+						<li><a href="#">发布大厅</a></li>
+						<li><a href="#">需求大厅</a></li>
+						<li><a href="#">活动策划</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-md-3">
+				<div class="col-md-4">
+					<button type="button" class="btn btn-warning" style="padding: 14px 12px">酒店加盟/登录</button>
+				</div>				
+				<div class="col-md-4" style="margin: 0px 20px">
+					<button type="button" class="btn btn-warning" style="padding: 14px 12px">登录|注册</button>
+				</div>
+			</div>
 
-				</ul>
-			</nav>
         </div>
 		
 		<div class="pageContentHeader">
@@ -93,7 +100,23 @@
 		
 		<div class="pageContent">
 			<div class="contentLeft">
-				<image src="image/leftImage.png"/>
+				<div class="contentLeftUp">
+					<div class="title2">
+						<p>酒店哥哥网招标流程</p>
+					</div>
+					<div>
+						<img src="image/leftImage.png" />
+					</div>
+				</div>
+				<div class="contentLeftDown">
+					<div class="title3">
+						<p>会议招标统计</p>
+					</div>
+					<div style="text-align: center">
+						<p>本月新增会议需求：<span style="color:rgb(255,102,0)">6942</span> 个</p>
+						<p>累计客户需求总数：<span style="color:rgb(255,102,0)">99085</span> 个</p>
+					</div>
+				</div>
 			</div>
 			
 			<div class="contentCenter">
@@ -111,7 +134,7 @@
 				<div class="releaseContent">
 				    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
 						<li class="active take-all-space-you-can">
-							<a href="#release_detailed" data-toggle="tab">
+							<a id="detailed_release_tab" href="#release_detailed" data-toggle="tab">
 								<div align="center">
 									<h2>精准发布</h2>
 									<p>需求更详细 推荐更快速 报价更精准 </p>
@@ -119,7 +142,7 @@
 							</a>
 						</li>
 						<li class="take-all-space-you-can">
-							<a href="#release_quick" data-toggle="tab">
+							<a id="quick_release_tab" href="#release_quick" data-toggle="tab">
 								<div align="center">
 									<h2>快速发布</h2>
 									<p>5秒发布 快速反馈 便捷体验</p>
@@ -373,6 +396,11 @@
 							</div>	
 							
 							<div class="option" style="margin: 5px 0px">
+								<div align="center">
+									<h4 class="pub-tit">
+										<span>联系方式</span>
+									</h4>
+								</div>
 								<form class="form-horizontal">
 									<div class="form-group">
 										<label class="col-md-2">
@@ -395,7 +423,21 @@
 											<p style="font-weight: bold; font-size: 18px; padding: 5px 0px">联系电话</p>
 										</label>
 										<div class="col-md-4">
-											<input type="text" class="form-control">
+											<input type="text" id="mobilePhoneNumberInput" class="form-control">
+										</div>
+										<div class="col-md-6" id="mobilePhoneNumberVerification">
+											<div class="col-md-3">
+												<button type="button" id="verifyBtn" class="btn btn-primary">发送验证码</button>
+											</div>
+											<div class="col-md-5">
+												<div class="col-md-1"></div>
+												<div class="col-md-11">
+													<input type="text" class="form-control" placeholder="请输入验证码">
+												</div>
+											</div>
+											<div class="col-md-4">
+												<label class="help" id="noVerifyNumberGet" style="margin: 6px 0px 0px 0px; cursor:help; ">收不到验证码</label>
+											</div>
 										</div>
 									</div>
 									<div class="form-group">
@@ -433,7 +475,7 @@
 										<label class="col-md-2">
 											<span style="font-weight: bold; font-size: 18px; padding: 5px 0px">联系人</span>
 										</label>
-										<div class="col-md-6">
+										<div class="col-md-4">
 											<input type="text" class="form-control">
 										</div>
 									</div>
@@ -441,15 +483,29 @@
 										<label class="col-md-2">
 											<span style="font-weight: bold; font-size: 18px; padding: 5px 0px">联系电话</span>
 										</label>
-										<div class="col-md-6">
-											<input type="text" class="form-control">
+										<div class="col-md-4">
+											<input type="text" id="mobilePhoneNumberInputForQuickRelease" class="form-control">
+										</div>
+										<div class="col-md-6" id="mobilePhoneNumberVerificationForQuickRelease">
+											<div class="col-md-3">
+												<button type="button" id="verifyBtnForQuickRelease" class="btn btn-primary">发送验证码</button>
+											</div>
+											<div class="col-md-5">
+												<div class="col-md-1"></div>
+												<div class="col-md-11">
+													<input type="text" class="form-control" placeholder="请输入验证码" />
+												</div>
+											</div>
+											<div class="col-md-4">
+												<label class="help" id="noVerifyNumberGetForQuickRelease" style="margin: 6px 0px 0px 0px; cursor:help; ">收不到验证码</label>
+											</div>
 										</div>
 									</div>
 									<div class="form-group">
 										<label class="col-md-2">
 											<span style="font-weight: bold; font-size: 18px; padding: 5px 0px">常用邮箱</span>
 										</label>
-										<div class="col-md-6">
+										<div class="col-md-4">
 											<input type="text" class="form-control">
 										</div>
 									</div>
@@ -458,7 +514,7 @@
 										    <label class="col-md-2">
 											    <p style="font-weight: bold; font-size: 18px; padding: 5px 0px">其他需求</p>
 										    </label>
-										    <div class="col-md-6">
+										    <div class="col-md-4">
 											    <textarea class="form-control" rows="5" id="Textarea1"></textarea>
 										    </div>
 									    </div>
@@ -476,7 +532,11 @@
 				</div>
 			</div>
 		</div>
-    </div>
+	
+		<div class="pageBottom" >
+			<img src="image/bottom.png"  align="middle"/>
+		</div>
+	</div>
 </body>
 </html>
 <script type="text/javascript">
@@ -515,6 +575,66 @@
 		$('#secondRoomDetailRemoveBtn').click(function(){
 			$('#secondRoomDetail').remove();
 		});
+		//for mobilePhoneNumberVerification
+		$('#mobilePhoneNumberVerification, #mobilePhoneNumberVerificationForQuickRelease').hide();
+		$('#mobilePhoneNumberInput').keyup(function(){
+			$('#mobilePhoneNumberVerification').hide();
+			var phonenumber = $('#mobilePhoneNumberInput').val();
+			console.log(phonenumber);
+			var re=/1[0-9]{10}/;
+			if(phonenumber.length>=11){
+				if(!re.exec(phonenumber) || phonenumber.length!=11){
+					alert('输入的手机号码格式不正确')
+				}
+				else{
+					$('#mobilePhoneNumberVerification').show();
+				}
+			}
+		});		
+		$('#mobilePhoneNumberInputForQuickRelease').keyup(function(){
+			$('#mobilePhoneNumberVerificationForQuickRelease').hide();
+			var phonenumber = $('#mobilePhoneNumberInputForQuickRelease').val();
+			console.log(phonenumber);
+			var re=/1[0-9]{10}/;
+			if(phonenumber.length>=11){
+				if(!re.exec(phonenumber) || phonenumber.length!=11){
+					alert('输入的手机号码格式不正确')
+				}
+				else{
+					$('#mobilePhoneNumberVerificationForQuickRelease').show();
+				}
+			}
+		});
+		$('#noVerifyNumberGet, #noVerifyNumberGetForQuickRelease').click(function(){
+			alert('1、看看短信是否被手机卫士拦截？\n2、你可以登录后再填表单，就不需要添验证码了。\n3、拨打400-213-148 咨询。');
+		});
+		//60s button disable
+		$("#verifyBtn, #verifyBtnForQuickRelease").click(function(){
+			$("#verifyBtn, #verifyBtnForQuickRelease").prop('disabled', true);
+			var count=60;
+			var counter=setInterval(timer_check, 1000); //1000 will  run it every 1 second
+			function timer_check()
+			{
+			  count=count-1;
+			  if (count <= 0)
+			  {
+				 clearInterval(counter);
+				 //counter ended, do something here
+				 $("#verifyBtn, #verifyBtnForQuickRelease").prop('disabled', false);
+				 $("#verifyBtn, #verifyBtnForQuickRelease").text('发送验证码');
+				 return;
+			  }
+			  //Do code for showing the number of seconds here
+			  $("#verifyBtn, #verifyBtnForQuickRelease").text(count.toString() +'秒后再次获取');
+			}
+
+		});
+		
+		//
+		$('#quick_release_tab, #detailed_release_tab').click(function(){
+			$('#mobilePhoneNumberVerification, #mobilePhoneNumberVerificationForQuickRelease').hide();
+		});
+		
     });
 
 </script>
