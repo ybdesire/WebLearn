@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.blueText{
+			color:blue;
+		}
+		.redText{
+			color:red;
+		}
+	</style>
+</head>
+<body ng-app="app">
+	<div ng-controller="colorCtrl">
+		<label ng-class="{true: 'blueText', false: 'redText'}[isActive]">Hello Angular</label>
+		<button ng-click="fun()">click</button>
+	</div>
+
+	<script type="text/javascript" src="angular.js"></script>
+	<script type="text/javascript">
+		app = angular.module('app', []);
+		app.controller('colorCtrl', function($scope){
+			$scope.isActive = true;
+			$scope.fun = function(){
+				$scope.isActive = !$scope.isActive;
+				console.log($scope.isActive);
+			}
+		});
+	</script>
+
+</body>
+</html>
