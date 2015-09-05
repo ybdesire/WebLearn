@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+</head>
+
+<body ng-app="bookStoreApp">
+	<div>
+		<h1>angular project</h1>
+	</div>
+
+	<div ng-view>
+		
+	</div>	
+
+	<ul>
+		<li><a href="#/book">book</a></li>
+		<li><a href="#/aboutus">aboutus</a></li>
+	</ul>
+	
+	<script type="text/javascript" src="assets/vendor/angular-1.4.4/angular.min.js" ></script>
+	<script type="text/javascript" src="assets/vendor/angular-1.4.4/angular-route.js" ></script>
+	<script type="text/javascript" src="assets/vendor/jquery/jquery-2.1.4.min.js" ></script>
+	<script type="text/javascript" src="assets/vendor/bootstrap/bootstrap-3.3.2-dist/js/bootstrap.min.js" ></script>
+
+	<script type="text/javascript" src="components/app.module.js" ></script>
+	<script type="text/javascript" src="components/app.routes.js" ></script>
+	<script type="text/javascript" src="components/book/bookCtrl.js" ></script>
+	<script type="text/javascript" src="components/aboutus/aboutusCtrl.js" ></script>
+
+</body>
+</html>
