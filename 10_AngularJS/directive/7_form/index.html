@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body ng-app="myModule">
+	<h4>good example <a href="http://embed.plnkr.co/lCRwhj/preview">here</a></h4>
+	<form name="loginForm" ng-submit="save(loginForm.$valid)" ng-controller="loginCtrl">
+		<input name="userName" type="text" ng-model="user.userName" required>
+		<input name="password" type="password"  required>
+		<input type="submit" ng-disabled="loginForm.$invalid">
+	</form>
+	<script type="text/javascript" src="../../angular.js"></script>
+	<script type="text/javascript" src="ctrl.js"></script>
+</body>
+</html>
