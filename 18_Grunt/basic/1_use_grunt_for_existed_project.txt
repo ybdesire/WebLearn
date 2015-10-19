@@ -1,0 +1,13 @@
+For project initialized with package.json & Gruntfile.js
+
+1. Download and install node.js
+https://nodejs.org/en/download/
+
+2. Change directory to the project
+
+3. Install all packages for the project
+npm install
+
+4. Run Grunt
+grunt
+

@@ -1,0 +1,15 @@
+.contentLeft{
+	width : 157px;
+	height : 1000px;
+	float : left;
+}
+.contentCenter{
+	width : 30px;
+	height : 1000px;
+	float : left;
+}
+.contentRight{
+	width : 993px;
+	height : 1000px;
+	float : left;
+}

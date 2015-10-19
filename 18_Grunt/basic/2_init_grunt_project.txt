@@ -1,0 +1,17 @@
+1. Create Gruntfile.js & package.json for the project.
+
+2. Install grunt and grunt-plugins.
+npm install
+
+3. run grunt
+
+4. npm will maintain the package.json file by adding '--save' or '--save-dev'
+npm install jquery --save-dev
+
+
+
+note:
+[1] Sample Gruntfile: http://gruntjs.com/sample-gruntfile
+[2] package.json '~' and '^':
+	~1.1.5: 1.1.0 <= accepted < 1.2.0
+	^1.1.5: 1.1.5 <= accepted < 2.0.0
