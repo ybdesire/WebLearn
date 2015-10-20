@@ -1,0 +1,6 @@
+1. download a standalone release "jasmine-standalone-2.3.4.zip" at https://github.com/jasmine/jasmine/releases
+
+2. un-zip the jasmine-standalone-2.3.4.zip to directory "jasmine_lib"
+
+3. double click "SpecRunner.html" at directory "jasmine_lib" to run test example
+
