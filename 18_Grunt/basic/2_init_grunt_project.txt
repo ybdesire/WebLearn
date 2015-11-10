@@ -1,7 +1,8 @@
 1. Create Gruntfile.js & package.json for the project.
 
 2. Install grunt and grunt-plugins.
-npm install
+npm install grunt --save-dev
+npm install grunt-cli --save-dev
 
 3. run grunt
 
