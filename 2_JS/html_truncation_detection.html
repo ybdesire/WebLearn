@@ -1,0 +1,36 @@
+<html>
+<head>
+</head>
+
+<body>
+	
+	<div>
+		<input id="btn" type="button" value="hello html truncation issue" style="width:150px"></input>
+	</div>
+	
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript">
+	// http://stackoverflow.com/questions/118241/calculate-text-width-with-javascript/21015393#21015393
+	String.prototype.width = function(font) {
+		var f = font || '12px arial',
+		o = $('<div>' + this + '</div>')
+            .css({'position': 'absolute', 'float': 'left', 'white-space': 'nowrap', 'visibility': 'hidden', 'font': f})
+            .appendTo($('body')),
+		w = o.width();
+
+		o.remove();
+		return w;
+	}
+
+
+	$(document).ready(function(){
+		ele = document.getElementById('btn');
+		//get input element default font properties
+		ele_font_size = $('input').css('font-size');
+		ele_font_family = $('input').css('font-family');
+		
+		console.log("hello html truncation issue".width( ele_font_size + " " + ele_font_family));
+	});
+	</script>
+</body>
+</html>
