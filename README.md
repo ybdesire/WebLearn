@@ -3,63 +3,40 @@ WebLearn
 
 the repository for saving my web development learn process & codes
 
-1 HTML learning
----------------
+# 1 HTML
 
-1_html/staticHTML.htm
--> HTML basic element layout learning: html, head, title, body; input, div
-
-1_html/staticControls.htm
--> Static HTML button/text/checkbox/dropdownlist controls
-
-1_html/list.html
--> Order list and un-order list.
-
-1_html/table.html
--> table with border by css.
-
-1_html/a/
--> a element: link/hover/visited/active.
-
-2 Javascript learning
----------------------
-
-2_JS/jsAtHtml
--> Embedded js at html.
-
-2_JS/ExternalJs
--> html load external js and run the function at the external js.
-
-2_JS/HTMLBtn
-->  Click a button at HTML and process the click event at js.
-
-2_JS/immediatFunction.html
--> Immediately-Invoked Function Expressions example.
-
-2_JS/module/
--> JS module usage.
-
-2_JS/GetBrowserLanguage.html
--> get browser language for FF/Chrome/IE.
-
-3 lib i18next learning
-----------------------
-
-3_i18next/HTML L10n
-->	i18next.js learning: Wrote a HTML l10n demo.
-
-3_i18next/JSstringL10n
-->	i18next.js learning: I18n the strings at js file.
+* HTML basic element layout learning: html, head, title, body; input, div: [1_html/staticHTML.htm](https://github.com/ybdesire/WebLearn/blob/master/1_html/staticHTML.htm)
+* Static HTML button/text/checkbox/dropdownlist controls: [1_html/staticControls.htm](https://github.com/ybdesire/WebLearn/blob/master/1_html/staticControls.htm)
+* Order list and un-order list: [1_html/list.html](https://github.com/ybdesire/WebLearn/blob/master/1_html/list.html)
+* table with border by css: [1_html/table.html](https://github.com/ybdesire/WebLearn/blob/master/1_html/table.html)
+* a element: link/hover/visited/active: [1_html/a/](https://github.com/ybdesire/WebLearn/tree/master/1_html/a)
+* image element: [1_html/image/](https://github.com/ybdesire/WebLearn/tree/master/1_html/image)
 
 
-4 jQuery learning
------------------
-4_jquery\Basics\SelectorEvents.html
-->	jQuery basic selector(by element & by id) and basic events(raedy(), click(), hide(), fadeIn(), html()).
+# 2 Javascript
+
+* Embedded js at html: 2_JS/jsAtHtml
+* html load external js and run the function at the external js: 2_JS/ExternalJs
+* Click a button at HTML and process the click event at js: 2_JS/HTMLBtn
+* Immediately-Invoked Function Expressions example: 2_JS/immediatFunction.html
+* JS module usage: 2_JS/module/
+* get browser language for FF/Chrome/IE: 2_JS/GetBrowserLanguage.html
 
 
-5 RequireJS learning
---------------------
+# 3 lib i18next basic
+
+* Wrote a HTML l10n demo: 3_i18next/HTML L10n
+* I18n the strings at js file: 3_i18next/JSstringL10n
+
+
+# 4 jQuery basic
+
+* jQuery basic selector(by element & by id) and basic events(raedy(), click(), hide(), fadeIn(), html()): 4_jquery\Basics\SelectorEvents.html
+
+
+# 5 RequireJS basic
+
+
 5_requirejs\basics
 -> Require asynchronously load external js file.
 
@@ -70,8 +47,9 @@ the repository for saving my web development learn process & codes
 -> RequireJS standard usage: data-min + config + define + require.
 
 
-6 CSS learning
---------------
+# 6 CSS basic
+
+
 6_CSS\basic
 -> CSS basics(property: value;), selector usage(select by id, element, class) and css usage(external, internal).
 
@@ -94,8 +72,9 @@ the repository for saving my web development learn process & codes
 -> CSS control text/paragraph.
 
 
-7 Ajax learning
----------------
+# 7 Ajax basic
+
+
 7_Ajax\Basics.html
 -> XMLHttpRequest basic usage. only client demo.
 
@@ -106,8 +85,9 @@ the repository for saving my web development learn process & codes
 -> WebForm server side Ajax Get request processing(non-block waiting) demo.
 
 
-8 MVC-ASPNET
-------------
+# 8 MVC-ASPNET
+
+
 8_MVC/ASPNET_MVC/Controller/
 -> MVC4 controller only project.
 
@@ -118,8 +98,9 @@ the repository for saving my web development learn process & codes
 -> Add cookie at server side and read the cookie at JS. JS select cookie by "jquery.cookie.js".
 
 
-9 Node.JS
----------------
+# 9 Node.JS
+
+
 9_NodeJS\HelloWorld
 -> Basic Node.JS HTTP server demo. 
 
@@ -139,8 +120,9 @@ the repository for saving my web development learn process & codes
 -> CommonJS module definition & usage.
 
 
-10_AngularJS\basic
-------------------
+# 10_AngularJS\basic
+
+
 10_AngularJS\basic\helloWorld.html
 -> Basic knowledge about AngularJS and bi-direction data-bind demo.
 
