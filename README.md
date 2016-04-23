@@ -148,3 +148,18 @@ the repository for saving my web development learn process & codes
 --------
 13_HTML5\localStorage.html
 -> HTML5 local storage demo.
+
+
+# 23_scrapy
+
+* [Basic crawler by scrapy](https://github.com/ybdesire/WebLearn/blob/master/23_scrapy/hello_scrapy)
+* [Use items](https://github.com/ybdesire/WebLearn/blob/master/23_scrapy/2_items)
+* [How to parse inner link(sub-category)](https://github.com/ybdesire/WebLearn/blob/master/23_scrapy/3_sub_category)
+* [Use pipeline](https://github.com/ybdesire/WebLearn/blob/master/23_scrapy/)
+
+
+# 24_phantomJS
+
+* [what is PhantomJS](https://github.com/ybdesire/WebLearn/blob/master/24_phantomJS/readme.md)
+* [hello world for PhantomJS](https://github.com/ybdesire/WebLearn/blob/master/24_phantomJS/1_hello.js)
+* [open url and check some BOM property](https://github.com/ybdesire/WebLearn/blob/master/24_phantomJS/3_network/1_detectsniff.js)
