@@ -1,4 +1,4 @@
-¡°hello world¡± for scrapy
+"hello world" for scrapy
 =========================
 
 http://doc.scrapy.org/en/latest/intro/tutorial.html
@@ -11,7 +11,7 @@ http://doc.scrapy.org/en/latest/intro/tutorial.html
 * Python 3rd libs
    * scrapy
    * virtualenv
-   * pywin32:¡¡pip install pypiwin32
+   * pywin32:Â¡Â¡pip install pypiwin32
 
 
 ## Steps
