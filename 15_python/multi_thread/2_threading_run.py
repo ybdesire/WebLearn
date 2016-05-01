@@ -19,4 +19,4 @@ if __name__ == "__main__":
     
     t3 = MyThread()
     t3.start()
-	
+# http://www.cszhi.com/20130528/python-threading.html
