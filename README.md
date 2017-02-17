@@ -212,9 +212,3 @@ the repository for saving my web development learn process & codes
 * [How to catch JS error](https://github.com/ybdesire/WebLearn/blob/master/25_web_advanced_html_js/catch_js_error.html)
 
 
-
-
-
-
-
-
