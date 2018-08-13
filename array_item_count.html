@@ -1,0 +1,25 @@
+<html>
+
+<head></head>
+
+<body></body>
+
+<script>
+  var arr = ["apple","orange","apple","orange","pear","orange"];
+  var o = {}
+  for(var i=0;i<arr.length;i++)
+  {
+      if( typeof o[arr[i]] != "undefined" )
+      {
+          o[arr[i]] ++;
+      }
+      else
+      {
+          o[arr[i]] = 0;
+      }
+  }
+  console.log(o);
+
+</script>
+
+</html>
