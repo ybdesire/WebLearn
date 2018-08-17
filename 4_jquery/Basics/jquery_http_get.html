@@ -1,0 +1,33 @@
+<!--
+This is a jQuery basics learning demo.
+Including jQuery selector/event.
+	*select by element/id
+	*event: click(), hide(), fadeIn(), html()
+-->
+
+<html>
+
+<head>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+	<title>jQuery HTTP GET</title>
+</head>
+
+<body>
+	<p> HTTP GET </p>
+	<input id="btn002" type="button" value="click"></input>
+</body>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+    $("#btn002").click(function(){
+        var url = "https://5586133100091825.ap-southeast-1.fc.aliyuncs.com/2016-08-15/proxy/test_func_cpt/hello_world/";
+        $.get(url, function(data, status){
+            alert("Data: " + data + "\nStatus: " + status);
+        });
+    });
+});
+</script>
+
+
+</html>
