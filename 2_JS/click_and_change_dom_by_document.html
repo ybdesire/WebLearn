@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        h2 {
+            margin-left: 45%;
+        }
+
+        #table1 {
+            margin-left: 40%;
+            color: black;
+        }
+
+        #table2 {
+            margin-left: 40%;
+            color: orange;
+        }
+
+        button {
+            margin-left: 50%
+        }
+
+        #text1 {
+            color: blue;
+        }
+
+        #text2 {
+            color: red;
+        }
+
+        #text3 {
+            color: orange;
+        }
+    </style>
+    <h2>Data table</h2>
+
+</head>
+<body>
+    <ul id="table1">
+        <li id="text1">This is data-1</li>
+        <li id="text2">This is data-2</li>
+        <li id="text3">This is data-3</li>
+    </ul>
+    <button id="myBtn">Try it</button>
+    <ul id="table2"></ul>
+    <script>
+ 	var numberOfLists = document.getElementsByTagName("li").length;
+	document.getElementById("myBtn").addEventListener("click", 		       displaywhatever);
+
+
+
+function displaywhatever() {
+    var para = document.createElement("li");
+	var node = document.createTextNode("This is data-1");
+	para.appendChild(node);
+	var element = document.getElementById("table2");
+	element.appendChild(para);
+    document.getElementById("myBtn").disabled = true;
+    document.getElementById("text1").style.color = "orange";
+    document.getElementById("text2").style.color = "blue";
+    document.getElementById("text3").style.color = "red";
+}
+    </script>
+</body>
+</html>
