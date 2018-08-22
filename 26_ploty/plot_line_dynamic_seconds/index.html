@@ -1,0 +1,86 @@
+<html>
+
+<head>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="plotly-latest.min.js"></script>
+
+</head>
+
+<body>
+
+    <div>
+        <p>this is a simple plogy.js demo</p>
+        <button type="button" id="btn_plot">Plot</button>
+        <br></br>
+        <label>plot lines: </label>
+        <div id="div1"></div>
+    </div>
+</body>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    var myVar = setInterval(myTimer, 1000);
+    var seed = 0;
+    var datarr = [10,20,3,4,15,6,7,28,9,10]
+    
+    function myTimer() {
+        draw();
+        seed++;
+    }
+    
+    function draw(){
+        var x_points = [];
+        var y_points_1 = [];
+        var y_points_2 = [];
+        var y_points_3 = [];
+        
+        for(var i=1;i<=10;i++)
+        {
+            x_points.push(i);
+        }
+        for(var i=1;i<=10;i++)
+        {
+            y_points_1.push( x_points[(i+seed)%10] );
+        }
+        for(var i=1;i<=10;i++)
+        {
+            y_points_2.push( x_points[(i+seed)%10]-2 );
+        }
+        for(var i=1;i<=10;i++)
+        {
+            y_points_3.push( x_points[(i+seed)%10]-5 );
+        }
+        
+        var trace1 = {
+          x: x_points, 
+          y: y_points_1, 
+          type: 'scatter'
+        };
+        var trace2 = {
+          x: x_points, 
+          y: y_points_2, 
+          type: 'scatter'
+        };
+        var trace3 = {
+          x: x_points, 
+          y: y_points_3, 
+          type: 'scatter'
+        };
+
+
+        var data = [trace1, trace2, trace3];
+
+
+        Plotly.newPlot('div1', data);
+    }
+
+	$("#btn_plot").click(function(){
+        seed++;
+    });
+});
+</script>
+
+
+
+
+</html>
