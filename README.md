@@ -212,3 +212,6 @@ the repository for saving my web development learn process & codes
 * [How to catch JS error](https://github.com/ybdesire/WebLearn/blob/master/25_web_advanced_html_js/catch_js_error.html)
 
 
+# 26 Ploty
+* [plot line by points](26_ploty/plot_line_by_plotyjs/)
+* [plot line dynamic by timer](26_ploty/plot_line_dynamic_seconds/)
