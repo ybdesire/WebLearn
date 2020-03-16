@@ -21,6 +21,7 @@ the repository for saving my web development learn process & codes
 * [Immediately-Invoked Function Expressions example](https://github.com/ybdesire/WebLearn/tree/master/2_JS/immediatFunction.html)
 * [JS module usage](https://github.com/ybdesire/WebLearn/tree/master/2_JS/module/)
 * [get browser language for FF/Chrome/IE](https://github.com/ybdesire/WebLearn/tree/master/2_JS/GetBrowserLanguage.html)
+* [class, inheritance](https://github.com/ybdesire/WebLearn/blob/master/2_JS/javascript_class_inheritance.html)
 
 
 # 3 lib i18next basic
