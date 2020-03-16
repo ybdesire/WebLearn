@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>index</title>
+</head>
+<body>
+ 
+    <script>
+        
+		class Shape
+		{
+			constructor(name)
+            {
+				this.name = name;
+            }
+			setName(name)
+			{
+				this.name = name;
+			}
+            getName()
+            {
+                return this.name;
+            }
+		}
+
+		
+		class Circle extends Shape
+		{
+			constructor(r)
+            {
+                super("circle");
+				this.r = r;
+            }
+			setName(name)
+			{
+				this.name = "Cir-"+name;
+			}
+			getArea()
+			{
+				return 3.14*this.r*this.r;
+			}	
+		}
+		
+		// test class
+        let s1 = new Shape("Polygon");
+        let s2 = new Circle(2.5);
+        console.log(s1.getName());
+        console.log(s2.getArea());
+		
+    </script>
+</body>
+</html>
